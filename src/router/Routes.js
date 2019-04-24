@@ -11,11 +11,10 @@ import DrawerContent from "../components/DrawerContent";
 import MenuIcon from "../components/MenuIcon";
 // import TabBarIcon from "../components/TabBarIcon";
 // tab screen
-import HomeScreen from '../screens/mainScreens/HomeScreen';
-import SettingsScreen from '../screens/mainScreens/SettingsScreen';
+import HomeScreen from "../screens/mainScreens/HomeScreen";
+import SettingsScreen from "../screens/mainScreens/SettingsScreen";
 // additional screens
 import ChangePassword from "../screens/mainScreens/profileHelper/changePassword";
-
 
 const Routes = () => (
 	<Router>
@@ -40,18 +39,8 @@ const Routes = () => (
 				type={ActionConst.REPLACE}
 			>
 				<Scene hideNavBar>
-					<Scene
-						key="main_home"
-						component={HomeScreen}
-						title="Home"
-						tabBarLabel="Home"
-						hideNavBar
-					/>
-					<Scene
-						key="main_settings"
-						component={SettingsScreen}
-						title="Settings"
-					/>
+					<Scene key="main_home" component={HomeScreen} title="Home" tabBarLabel="Home" hideNavBar />
+					<Scene key="main_settings" component={SettingsScreen} title="Settings" />
 					{/* <Scene
 						key="main_profile"
 						component={ProfileScreen}

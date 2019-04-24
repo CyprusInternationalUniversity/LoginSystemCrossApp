@@ -20,7 +20,6 @@ const composeEnhancers = composeWithDevTools({
 
 export default store; */
 
-
 export default function ConfigureStore() {
 	const store = createStore(
 		allReducers,
@@ -32,4 +31,3 @@ export default function ConfigureStore() {
 	//window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 	return store;
 }
-
