@@ -1,0 +1,294 @@
+{
+	"TEMPLATE": {
+		"WELCOME_INTRO_1": "Welcome to",
+		"WELCOME_INTRO_2": "My NetHouse",
+		"TAGLINE": "ALWAYS FASTER, ALWAYS CONNECTED"
+	},
+	"DUMMY": {
+		"TEXT": "some dummy text here",
+		"BUTTON": "Button text"
+	},
+	"ADSL_PACKET_NAMES": {
+		"1MB": "Light Eco User Package",
+		"2MB": "Standard User Package",
+		"4MB": "Advanced User Package",
+		"8MB": "Ultimate User Package"
+	},
+	"WIRELESS_PACKET_NAMES": {
+		"5MB": "Standard User Package",
+		"10MB": "Advanced User Package",
+		"15MB": "Ultimate User Package"
+	},
+	"VDSL_PACKET_NAMES": {
+		"10MB": "Light Eco User Package",
+		"16MB": "Standard User Package",
+		"24MB": "Advanced User Package",
+		"34MB": "Ultimate User Package"
+	},
+	"PACKAGES_DETAILS_SCREEN": {
+		"PACKAGE_SPEED": "Speed",
+		"PACKAGE_DESCRIPTION": "Description",
+		"PACKAGE_TYPE": "Type",
+		"PACKAGE_GOOD_FOR": "Good For",
+		"PACKAGE_DATE": "Date",
+		"APP_SELECT_MONTH_ON_PACKAGE_DETAIL": "Select a Monthly Plan"
+	},
+	"SIDEMENU": {
+		"MENU_ITEM_PACKAGE": "Package Details",
+		"MENU_ITEM_BILLING": "Billings",
+		"MENU_ITEM_ACCOUNT": "Account Info",
+		"MENU_ITEM_INTERNET_DATA_USAGE": "Internet Data Usage",
+		"MENU_ITEM_CAMPAIGNS": "Campaigns",
+		"MENU_ITEM_SETTINGS": "Settings",
+		"MENU_ITEM_HELP": "Help"
+	},
+	"GENERAL": {
+		"RE_LOGIN_ERROR_TITLE": "Session Expired",
+		"RE_LOGIN_ERROR_DESCRIP": "Sorry, we need to re-login you again.",
+		"GREETING_MESSAGE_NOON": "Good afternoon",
+		"GREETING_MESSAGE_MORNING": "Good Morning",
+		"GREETING_MESSAGE_NIGHT": "Good Evening",
+		"LANDLINE_NUMBER": "444 0 555",
+		"CONTACT_US_SOCIALMEDIA": "Contact us on Social media",
+		"SESSION_ERROR": "Oops! Session is expired, Please Login again",
+		"SELECT_BTN": "OK",
+		"CANCEL_BTN": "Dismiss",
+		"BACK_BUTTON_TEXT": "Back",
+		"BACK_BUTTON_WELCOME_TEXT_DESC": "Go to Welcome Screen",
+		"BACK_BUTTON_TEXT_DESC": "Back to Login",
+		"BACK_BUTTON_HOME_TEXT_DESC": "Back to Home Screen",
+		"BACK_BUTTON_GENERIC_TEXT_DESC": "Go to Back Screen",
+		"DONE_BUTTON": "Done",
+		"CANCEL_BUTTON": "Cancel",
+		"DELETE_BUTTON": "Delete",
+		"NAME": "Name",
+		"EMAIL": "Email",
+		"USERNAME": "Username",
+		"PASSWORD": "Password",
+		"LOGIN": "Sign in",
+		"SIGNUP": "Sign up",
+		"LOADING": "Loading...",
+		"ERR_LOADING": "Error Loading",
+		"APP_INIT_LOADING": "App initializing...",
+		"APP_LOGIN_CHECK": "Checking Login...",
+		"APP_SESSION_ID_FOUND": "Login Found...",
+		"APP_SESSION_ID_NOT_FOUND": "Please login again...",
+		"APP_REFRESHING_SESSION_ID": "Loading Login...",
+		"APP_REFRESHING_SESSION_ID_SUCCESS": "App'll auto Login...",
+		"APP_REFRESHING_SESSION_ID_FAILED": "Please login again...",
+		"APP_CHECKING_PROFILES_STARTED": "Loading Account...",
+		"APP_REFRESHING_SESSION_SELECTING_AUTO_ACCOUNT":
+			"Loading Account Info..."
+	},
+	"ROUTE_HEADER_TITLE": {
+		"FORGET_PASS_HEADER_TITLE": "Forgot Password",
+		"FORGET_PASS_Fill_Phoneno_HEADER_TITLE": "Fill Phone Number",
+		"REGISTER_HEADER_TITLE": "Registration",
+		"PREPROFILE_HEADER_TITLE": "Select Account",
+		"RESELLER_HEADER_TITLE": "Become a Customer",
+		"RESELLER_ALTERNATE_HEADER_TITLE": "Reseller Next To You",
+		"RESELLER_DETAILS_HEADER_TITLE": "Affiliates",
+		"SUPPORT_HEADER_TITLE": "Get Support",
+		"SUPPORT_ALTERNATE_HEADER_TITLE": "Get Support",
+		"SUPPORT_DETAILS_HEADER_TITLE": "NetHouse Points",
+		"USER_SCREEN_HEADER_TITLE": "User Info",
+		"INTERNET_USAGE_SCREEN_HEADER_TITLE": "Internet Data Usage Info",
+		"INTERNET_USAGE_SCREEN_BY_YEAR_HEADER_TITLE":
+			"Internet Data Usage By Year",
+		"INTERNET_USAGE_SCREEN_BY_MONTH_HEADER_TITLE":
+			"Internet Data Usage By Month",
+		"PACKAGES_DETAILS_SCREEN_HEADER_TITLE": "Packages",
+		"BILLING_SCREEN_HEADER_TITLE": "Billing Info",
+		"TICKETS_SCREEN_HEADER_TITLE": "My Tickets",
+		"CAMPAIGNS_SCREEN_HEADER_TITLE": "Campaigns",
+		"SETTINGS_SCREEN_HEADER_TITLE": "My Settings",
+		"FAMILY_FILTER_SCREEN_HEADER_TITLE": "Family Filter",
+		"LANGUAGE_SCREEN_HEADER_TITLE": "Select Language",
+		"GENERAL_SETTINGS_SCREEN_HEADER_TITLE": "General Settings",
+		"ABOUT_SETTINGS_SCREEN_HEADER_TITLE": "About Settings",
+		"ABOUT_NETHOUSE_SCREEN_HEADER_TITLE": "About Nethouse",
+		"NOTIFICATIONS_SCREEN_HEADER_TITLE": "Notifcations",
+		"HELP_SCREEN_HEADER_TITLE": "Quick Help"
+	},
+	"QUICK_MENU": {
+		"QUICK_MENU_HOME": "Home",
+		"QUICK_MENU_USER": "User",
+		"QUICK_MENU_SERVICES": "My Services",
+		"QUICK_MENU_BILLING": "Billing",
+		"QUICK_MENU_SETTINGS": "Settings",
+		"QUICK_MENU_HELP": "Help"
+	},
+	"INTRO": {
+		"TUTORIAL_SKIP_BUTTON": "Skip",
+		"TUTORIAL_SKIP_SUB_TEXT": "Don't show me again",
+		"TUTORIAL_CONTINUE_BUTTON": "Continue",
+
+		"TUTORIAL_SLIDE1_TITLE": "What is it for?",
+		"TUTORIAL_SLIDE1_DESCRIPTION":
+			"Sit amet consectetur adipisicing elit. Autem numquam pariatur ducimus dolore vero.",
+
+		"TUTORIAL_SLIDE2_TITLE": "How to use Menus",
+		"TUTORIAL_SLIDE2_DESCRIPTION":
+			"Ipsum dolor, sit amet consectetur adipisicing elit. Autem numquam pariatur ducimus dolore vero.",
+
+		"TUTORIAL_SLIDE3_TITLE": "How to get Support",
+		"TUTORIAL_SLIDE3_DESCRIPTION":
+			"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem numquam pariatur ducimus dolore vero.",
+
+		"TUTORIAL_SLIDE4_TITLE": "Ready to Play?"
+	},
+	"WELCOME_SCREEN": {
+		"WELCOME_INTRO": "Welcome to My NetHouse",
+		"WELCOME_INTRO_1": "Welcome to",
+		"WELCOME_INTRO_2": "My NetHouse",
+		"REGISTRATION_BUTTON": "Registration",
+		"LOGIN_BUTTON": "Login",
+		"BECOME_CUSTOMER_BUTTON": "Find a Store",
+		"SUPPORT_BUTTON": "Support"
+	},
+	"REGISTRATION_SCREEN": {
+		"REGISTER_TITLE": "Call for Registration",
+		"REGISTER_CONTENT":
+			"We are the only internet service provider in the TRNC to provide telephone support between the hours of 08: 00 - 02: 00 ",
+		"REGISTER_ERROR":
+			"Unable to create account. Please check your account information and try again."
+	},
+	"LOGIN_SCREEN": {
+		"LOGIN_TITLE": "My Nethouse Login",
+		"LOGIN_ACCOUNT_FIELD": "Account ID",
+		"LOGIN_PASSWORD_FIELD": "Password",
+		"LOGIN_REMEMBER_FIELD": "Remember me",
+		"LOGIN_SUBMIT_BUTTON": "Login me!",
+		"LOGIN_FORGET_ACCOUNT_ID": "Forgot Account ID ?",
+		"LOGIN_FORGET_PASSWORD": "Forgot Password",
+		"LOGIN_QUESTION_LABEL_ACCOUNT_ID":
+			"Account ID is your username from Nethouse",
+		"LOGIN_QUESTION_LABEL_PASSWORD": "your password for Nethouse login",
+		"LOGIN_FORGET_ID": "Forgot ID",
+		"LOGIN_SUCCESS": "Login was successfull!",
+		"LOGIN_ERROR": "Invalid credentials, Try again."
+	},
+	"FORGET_PASSWORD_SCREEN": {
+		"INPUT_TITLE": "Write your Account ID",
+		"SUBMIT_1": "Next Step"
+	},
+	"MAP": {
+		"MAP_TITLE": "Map"
+	},
+	"RESELLER_MAP_SCREEN": {
+		"HEADER_TITLE": "Call Us For Support",
+		"DESCRIPTION":
+			"Need help setting up your Wi-Fi, unable to connect or dropping out ? Find your nearest Nethouse Retail Store.",
+		"RESELLER_COMPANY_NAME": "Company Name",
+		"RESELLER_LOCATION": "Location",
+		"RESELLER_NAME": "Name",
+		"RESELLER_ADDRESS": "Address",
+		"RESELLER_PHONE": "Phone No"
+	},
+	"SUPPORT_MAP_SCREEN": {
+		"HEADER_TITLE": "Call Us For Support",
+		"DESCRIPTION":
+			"Need help setting up your Wi-Fi, unable to connect or dropping out ? Find your nearest Nethouse Retail Store.",
+		"DESCRIPTION2":
+			"For further assistance, Please feel free to call us anytime as well.",
+		"SUPPORT_LOCATION": "Location",
+		"SUPPORT_ADDRESS": "Address",
+		"SUPPORT_PHONE": "Phone No",
+		"SUPPORT_FAX": "Fax No"
+	},
+	"PREPROFILE_SCREEN": {
+		"PREPROFILE_TITLE": "Please select one of the Profile from below",
+		"PREPROFILE_LOADING_TITLE": "Fetching profile list..."
+	},
+	"HOME_SCREEN": {
+		"QUICK_ITEM1": "Package Speed",
+		"QUICK_ITEM2": "Days Left",
+		"QUICK_ITEM3": "Speed Test",
+		"QUICK_ITEM4": "2-days Advance",
+		"SERVICE_NAME": "Service Name",
+		"SERVICE_EXPIRY": "Expiry Details",
+		"UPGRADE_NOW_BUTTON": "Upgrade Now",
+		"GREETINGS": {
+			"WelcomeTo": "Welcome to",
+			"MyNethouse": "My Nethouse"
+		},
+		"PACKAGE_LEFT_DAYS_GRAPHICS": {
+			"TITLE": "Days Remaining",
+			"DAYS_LEFT": "Days left",
+			"DAYS_LEFT_OF": "of",
+			"DAYS_LEFT_MONTH": "month",
+			"DAYS_LEFT_MONTHS": "months"
+		},
+		"PACKAGE_SPEED_GRAPHICS": {
+			"TITLE": "Package Speed"
+		},
+		"MENU": {
+			"MENU_ITEM_STORES": "Stores",
+			"MENU_ITEM_UPGRADE": "Upgrade",
+			"MENU_ITEM_SETTINGS": "Settings",
+			"MENU_ITEM_SUPPORT": "Support"
+		}
+	},
+	"SPEED_TEST_SCREEN": {
+		"TITLE": "Speed Test"
+	},
+	"USER_SCREEN": {
+		"USER_NAME": "Name",
+		"USER_ADDRESS": "Address",
+		"USER_MOBILE_NO": "Mobile No",
+		"USER_PHONE_NO": "Phone No"
+	},
+	"INTERNET_DATA_USAGE_SCREEN": {
+		"TABS": {
+			"CURRENT": "Current Details",
+			"BY_YEAR": "By Year",
+			"BY_MONTH": "By Month"
+		}
+	},
+	"CAMPAIGNS_SCREEN": {
+		"TITLE": "Slide to choose any Campaign to get benefit from Nethouse"
+	},
+	"SERVICES_SCREEN": {},
+	"BILLING_SCREEN": {
+		"HEADER_TITLE": "Description",
+		"BILLING_TYPE": "Type",
+		"BILLING_DATE": "Date",
+		"BILL_RECEIVABLE": "Receivable",
+		"BILL_DEBT": "Debt",
+		"BILLING_LIST_EMPTY":
+			"Sorry, there's no billing history to show at the moment"
+	},
+	"HELP_SCREEN": {},
+	"SETTING": {
+		"SETTINGS_TITLE": "Settings",
+		"SETTINGS_OPTION_FAMILY_FILTER": "Family Filter",
+		"SETTINGS_OPTION1": "General",
+		"SETTINGS_OPTION2": "Notifications",
+		"SETTINGS_OPTION3": "App Language",
+		"SETTINGS_OPTION4": "About",
+		"SETTINGS_OPTION5": "Logout",
+		"SETTINGS_PAGE_PROFILE": "Edit Profile"
+	},
+	"LANGUAGE_SCREEN": {
+		"ENGLISH": "English",
+		"TURKISH": "Turkish"
+	},
+	"FAMILY_FILTER_SCREEN": {
+		"TITLE": "What is Family Filter?",
+		"DESCRIPTION":
+			"Family Filter helps you to protect your child from the adult website access and gives you control about what he uses.",
+		"FAMILY_FILTER_STATUS": "Status",
+		"FAMILY_FILTER_DESCRIPTION":
+			"Change Family Filter Status for your account below.",
+		"FAMILY_FILTER_ENABLE": "Enable Family Filter",
+		"FAMILY_FILTER_DISABLE": "Disable Filter Status"
+	},
+	"ABOUT_SETTING": {
+		"ABOUT_SETTING_OPTION1": "About Nethouse",
+		"ABOUT_SETTING_OPTION2": "Privacy policy"
+	},
+	"GENERAL_SETTING": {
+		"GENERAL_SETTING_OPTION1": "Request 2 Days extra",
+		"GENERAL_SETTING_OPTION2": "Speed Test"
+	}
+}

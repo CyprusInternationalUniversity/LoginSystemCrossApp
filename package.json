@@ -12,10 +12,20 @@
   },
   "dependencies": {
     "@expo/samples": "2.1.1",
+    "axios": "^0.18.0",
     "expo": "^32.0.0",
+    "native-base": "^2.8.1",
     "react": "16.5.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
-    "react-navigation": "^3.0.9"
+    "react-native-button": "^2.3.0",
+    "react-native-responsive-screen": "^1.2.2",
+    "react-native-router-flux": "^4.0.6",
+    "react-native-textinput-effects": "^0.5.1",
+    "react-navigation": "^3.0.9",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "babel-preset-expo": "^5.0.0",

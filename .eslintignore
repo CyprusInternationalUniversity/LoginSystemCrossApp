@@ -1,0 +1,9 @@
+!.*
+*/node_modules/react-native-navigation
+node_modules/
+**/node_modules/**
+coverage/
+dist/
+mobiles/
+package.json
+.gitignore

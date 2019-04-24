@@ -1,0 +1,293 @@
+{
+	"TEMPLATE": {
+		"WELCOME_INTRO_1": "Hoşgeldiniz",
+		"WELCOME_INTRO_2": "Nethouse",
+		"TAGLINE": "ALWAYS FASTER, ALWAYS CONNECTED"
+	},
+	"DUMMY": {
+		"TEXT": "some dummy text here",
+		"BUTTON": "Button text"
+	},
+	"ADSL_PACKET_NAMES": {
+		"1MB": "Light Eco User Package",
+		"2MB": "Standard User Package",
+		"4MB": "Advanced User Package",
+		"8MB": "Ultimate User Package"
+	},
+	"WIRELESS_PACKET_NAMES": {
+		"5MB": "Standard User Package",
+		"10MB": "Advanced User Package",
+		"15MB": "Ultimate User Package"
+	},
+	"VDSL_PACKET_NAMES": {
+		"10MB": "Light Eco User Package",
+		"16MB": "Standard User Package",
+		"24MB": "Advanced User Package",
+		"34MB": "Ultimate User Package"
+	},
+	"PACKAGES_DETAILS_SCREEN": {
+		"PACKAGE_SPEED": "Hız",
+		"PACKAGE_DESCRIPTION": "Açıklama",
+		"PACKAGE_TYPE": "Tip",
+		"PACKAGE_GOOD_FOR": "Good For",
+		"PACKAGE_DATE": "Tarih",
+		"APP_SELECT_MONTH_ON_PACKAGE_DETAIL": "Aylık Ödeme Planı Oluşturun"
+	},
+
+	"SIDEMENU": {
+		"MENU_ITEM_PACKAGE": "Paket ayrıntıları",
+		"MENU_ITEM_BILLING": "Fatura",
+		"MENU_ITEM_ACCOUNT": "Hesap Bilgisi",
+		"MENU_ITEM_INTERNET_DATA_USAGE": "İnternet Verileri Kullanımı",
+		"MENU_ITEM_CAMPAIGNS": "Kampanyalar",
+		"MENU_ITEM_SETTINGS": "Ayarlar",
+		"MENU_ITEM_HELP": "Yardım"
+	},
+	"GENERAL": {
+		"RE_LOGIN_ERROR_TITLE": "Session Expired",
+		"RE_LOGIN_ERROR_DESCRIP": "Sorry, we need to re-login you again.",
+		"GREETING_MESSAGE_NOON": "İyi Günler",
+		"GREETING_MESSAGE_MORNING": "Günaydın",
+		"GREETING_MESSAGE_NIGHT": "İyi Akşamlar",
+		"LANDLINE_NUMBER": "444 0 555",
+		"CONTACT_US_SOCIALMEDIA": "Facebook’tan Bize Ulaşın",
+		"SESSION_ERROR": "Oturumunuz Sonlandı, Tekrar giriş yapın",
+		"SELECT_BTN": "Tamam",
+		"CANCEL_BTN": "Dismiss",
+		"BACK_BUTTON_TEXT": "Geri",
+		"BACK_BUTTON_WELCOME_TEXT_DESC": "Ana Sayfa",
+		"BACK_BUTTON_TEXT_DESC": "Giriş Yapın",
+		"BACK_BUTTON_HOME_TEXT_DESC": "Ana Sayfa",
+		"BACK_BUTTON_GENERIC_TEXT_DESC": "Geri",
+		"DONE_BUTTON": "Tamam",
+		"CANCEL_BUTTON": "İptal",
+		"DELETE_BUTTON": "Sil",
+		"NAME": "Ad",
+		"EMAIL": "E-posta",
+		"USERNAME": "Kullanıcı Adı",
+		"PASSWORD": "Şifre",
+		"LOGIN": "Giriş Yap",
+		"SIGNUP": "Oturum Aç",
+		"LOADING": "Yükleniyor...",
+		"APP_INIT_LOADING": "Uygulama Başlatılıyor...",
+		"APP_LOGIN_CHECK": "Giriş kontrol ediliyor...",
+		"APP_SESSION_ID_FOUND": "Giriş kontrol ediliyor...",
+		"APP_SESSION_ID_NOT_FOUND": "Please login again...",
+		"APP_REFRESHING_SESSION_ID": "Giriş kontrol ediliyor...",
+		"APP_REFRESHING_SESSION_ID_SUCCESS":
+			"Uygulama otomatik giriş yapacak...",
+		"APP_CHECKING_PROFILES_STARTED": "Checking Account...",
+		"APP_REFRESHING_SESSION_ID_FAILED": "Error Generating Session ID...",
+		"APP_REFRESHING_SESSION_SELECTING_AUTO_ACCOUNT":
+			"Loading Account Info...",
+		"APP_AUTO_SELECTED_PROFILE_SUCCESS": "Auto Selecting Account...",
+		"APP_AUTO_SELECTED_PROFILE_FAILED": "Lütfen Üyelik adı Seçiniz..."
+	},
+	"ROUTE_HEADER_TITLE": {
+		"FORGET_PASS_HEADER_TITLE": "Şifremi unuttum",
+		"FORGET_PASS_Fill_Phoneno_HEADER_TITLE": "İrtibat numarası girin",
+		"REGISTER_HEADER_TITLE": "Kayıt",
+		"PREPROFILE_HEADER_TITLE": "Üyelik Seçin",
+		"RESELLER_HEADER_TITLE": "Üye Olun",
+		"RESELLER_ALTERNATE_HEADER_TITLE": "Yakındaki Bayiler",
+		"RESELLER_DETAILS_HEADER_TITLE": "Bayiler",
+		"SUPPORT_HEADER_TITLE": "Bize Ulaşın",
+		"SUPPORT_ALTERNATE_HEADER_TITLE": "Bize Ulaşın",
+		"SUPPORT_DETAILS_HEADER_TITLE": "NetHouse Points",
+		"USER_SCREEN_HEADER_TITLE": "Kullanıcı Bilgisi",
+		"INTERNET_USAGE_SCREEN_HEADER_TITLE":
+			"İnternet Verisi Kullanım Bilgisi",
+		"SERVICES_SCREEN_HEADER_TITLE": "Paketler",
+		"BILLING_SCREEN_HEADER_TITLE": "Ödeme Geçmişi",
+		"TICKETS_SCREEN_HEADER_TITLE": "My Tickets",
+		"CAMPAIGNS_SCREEN_HEADER_TITLE": "Kampanyalar",
+		"SETTINGS_SCREEN_HEADER_TITLE": "Ayarlar",
+		"LANGUAGE_SCREEN_HEADER_TITLE": "Dil Seçimi",
+		"GENERAL_SETTINGS_SCREEN_HEADER_TITLE": "Genel Ayarlar",
+		"ABOUT_SETTINGS_SCREEN_HEADER_TITLE": "Ayarlar Hakkında",
+		"ABOUT_NETHOUSE_SCREEN_HEADER_TITLE": "Nethouse Hakkında",
+		"NOTIFICATIONS_SCREEN_HEADER_TITLE": "Bildirimler",
+		"HELP_SCREEN_HEADER_TITLE": "Yardım"
+	},
+	"QUICK_MENU": {
+		"QUICK_MENU_HOME": "Ana Sayfa",
+		"QUICK_MENU_USER": "Kullanıcı",
+		"QUICK_MENU_SERVICES": "Servislerim",
+		"QUICK_MENU_BILLING": "Faturalarım",
+		"QUICK_MENU_SETTINGS": "Ayarlar",
+		"QUICK_MENU_HELP": "Yardım"
+	},
+	"INTRO": {
+		"TUTORIAL_SKIP_BUTTON": "Geç",
+		"TUTORIAL_SKIP_SUB_TEXT": "Bir daha gösterme",
+		"TUTORIAL_CONTINUE_BUTTON": "Devam",
+
+		"TUTORIAL_SLIDE1_TITLE": "What is it for?",
+		"TUTORIAL_SLIDE1_DESCRIPTION":
+			"Sit amet consectetur adipisicing elit. Autem numquam pariatur ducimus dolore vero.",
+
+		"TUTORIAL_SLIDE2_TITLE": "Menüyü nasıl kullanırım?",
+		"TUTORIAL_SLIDE2_DESCRIPTION":
+			"Ipsum dolor, sit amet consectetur adipisicing elit. Autem numquam pariatur ducimus dolore vero.",
+
+		"TUTORIAL_SLIDE3_TITLE": "Destek Al",
+		"TUTORIAL_SLIDE3_DESCRIPTION":
+			"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem numquam pariatur ducimus dolore vero.",
+
+		"TUTORIAL_SLIDE4_TITLE": "Ready to Play?"
+	},
+	"WELCOME_SCREEN": {
+		"WELCOME_INTRO": "Nethouse’a Hoşgeldiniz",
+		"WELCOME_INTRO_1": "Hoşgeldiniz",
+		"WELCOME_INTRO_2": "My NetHouse",
+		"REGISTRATION_BUTTON": "Kayıt Ol",
+		"LOGIN_BUTTON": "Giriş Yap",
+		"BECOME_CUSTOMER_BUTTON": "Bayi Ara",
+		"SUPPORT_BUTTON": "Destek"
+	},
+	"REGISTRATION_SCREEN": {
+		"REGISTER_TITLE": "Kayıt için bize ulaşın",
+		"REGISTER_CONTENT":
+			"KKTC’deki internet şirketleri arasında Çağrı Merkezi 08:00 – 02.00 saatleri arasında çalışan tek İnternet Şirketiyiz",
+		"REGISTER_ERROR":
+			"Hesap oluşturulamadı. Lütfen bilgilerin doğruluğunu kontrol edip tekrar deneyiniz."
+	},
+	"LOGIN_SCREEN": {
+		"LOGIN_TITLE": "My Nethouse Giriş",
+		"LOGIN_ACCOUNT_FIELD": "Kullanıcı Adı",
+		"LOGIN_PASSWORD_FIELD": "Giriş",
+		"LOGIN_REMEMBER_FIELD": "Beni Hatırla",
+		"LOGIN_SUBMIT_BUTTON": "Giriş Yap!",
+		"LOGIN_FORGET_ACCOUNT_ID": "Kullanıcı Adımı unuttum ?",
+		"LOGIN_FORGET_PASSWORD": "Şifremi unuttum",
+		"LOGIN_QUESTION_LABEL_ACCOUNT_ID": "Kullanıcı adınız üyelik adınızdır",
+		"LOGIN_QUESTION_LABEL_PASSWORD":
+			"Nethouse’a giriş yapmak için şifre girin",
+		"LOGIN_FORGET_ID": "Kullanıcı adımı unuttum",
+		"LOGIN_SUCCESS": "Giriş işlemi başarılı!",
+		"LOGIN_ERROR": "Kullanıcı bilgisi yanlış.Tekrar deneyiniz."
+	},
+	"FORGET_PASSWORD_SCREEN": {
+		"INPUT_TITLE": "Kullanıcı adınızı yazınız",
+		"SUBMIT_1": "Sonraki"
+	},
+	"MAP": {
+		"MAP_TITLE": "Harita"
+	},
+	"RESELLER_MAP_SCREEN": {
+		"HEADER_TITLE": "Destek için Bize Ulaşın",
+		"DESCRIPTION":
+			"Wi-fi modem kurulumu için yardım mı gerekiyor, bağlantıda sorun mu yaşıyorsunuz ? En yakın bayimize buradan ulaşabilirsiniz.",
+		"RESELLER_COMPANY_NAME": "Şirket Adı",
+		"RESELLER_LOCATION": "Yer",
+		"RESELLER_NAME": "Ad",
+		"RESELLER_ADDRESS": "Adres",
+		"RESELLER_PHONE": "Telefon Numarası"
+	},
+	"SUPPORT_MAP_SCREEN": {
+		"HEADER_TITLE": "Destek için Bize ulaşın",
+		"DESCRIPTION":
+			" Wi-fi modem kurulumu için yardım mı gerekiyor, bağlantıda sorun mu yaşıyorsunuz ? En yakın bayimize buradan ulaşabilirsiniz.",
+		"DESCRIPTION2":
+			"Daha detaylı yardım için, Lütfen bizi aramaktan çekinmeyiniz.",
+		"SUPPORT_LOCATION": "Yer",
+		"SUPPORT_ADDRESS": "Adres",
+		"SUPPORT_PHONE": "Telefon Numarası",
+		"SUPPORT_FAX": "Faks Numarası"
+	},
+	"PREPROFILE_SCREEN": {
+		"PREPROFILE_TITLE":
+			"Lütfen aşağıdaki kullanıcı isimlerinden birini seçiniz",
+		"PREPROFILE_LOADING_TITLE": "Fetching profile list..."
+	},
+	"HOME_SCREEN": {
+		"QUICK_ITEM1": "Hız",
+		"QUICK_ITEM2": "Kalan Gün Sayısı",
+		"QUICK_ITEM3": "Hız testi",
+		"QUICK_ITEM4": "2 gün Avans",
+		"SERVICE_NAME": "Servis Adı",
+		"SERVICE_EXPIRY": "Bitiş Süresi",
+		"UPGRADE_NOW_BUTTON": "Paket Yenileme",
+		"GREETINGS": {
+			"WelcomeTo": "Hoşgeldiniz",
+			"MyNethouse": "My Nethouse"
+		},
+		"PACKAGE_LEFT_DAYS_GRAPHICS": {
+			"TITLE": "Kalan Günler",
+			"DAYS_LEFT": "gün kaldı",
+			"DAYS_LEFT_OF": " ",
+			"DAYS_LEFT_MONTH": "aydan",
+			"DAYS_LEFT_MONTHS": "aydan"
+		},
+		"PACKAGE_SPEED_GRAPHICS": {
+			"TITLE": "Paket Hızı"
+		},
+		"MENU": {
+			"MENU_ITEM_STORES": "Ofisler",
+			"MENU_ITEM_UPGRADE": "Yükselt",
+			"MENU_ITEM_SETTINGS": "Ayarlar",
+			"MENU_ITEM_SUPPORT": "Destek"
+		}
+	},
+	"SPEED_TEST_SCREEN": {
+		"TITLE": "Hız testi"
+	},
+	"USER_SCREEN": {
+		"USER_NAME": "isim",
+		"USER_ADDRESS": "Adres",
+		"USER_MOBILE_NO": "Cep numarası",
+		"USER_PHONE_NO": "Telefon numarası"
+	},
+	"INTERNET_DATA_USAGE_SCREEN": {
+		"TABS": {
+			"CURRENT": "şimdiki",
+			"BY_YEAR": "Yıla göre",
+			"BY_MONTH": "Ayda"
+		}
+	},
+	"CAMPAIGNS_SCREEN": {
+		"TITLE":
+			"Nethouse'dan yararlanmak için herhangi bir kampanya seçmek için kaydırın"
+	},
+	"SERVICES_SCREEN": {},
+	"BILLING_SCREEN": {
+		"HEADER_TITLE": "Açıklama",
+		"BILLING_TYPE": "Tip",
+		"BILLING_DATE": "Tarih",
+		"BILL_RECEIVABLE": "Alacak",
+		"BILL_DEBT": "Borç",
+		"BILLING_LIST_EMPTY":
+			"Üzgünüz, şu anda gösterilecek faturalandırma geçmişi yok."
+	},
+	"HELP_SCREEN": {},
+
+	"SETTING": {
+		"SETTINGS_TITLE": "Ayarlar",
+		"SETTINGS_OPTION_FAMILY_FILTER": "Temiz İnternet Servisi",
+		"SETTINGS_OPTION_FAMILY_MESSAGE": "Mesaj",
+		"SETTINGS_OPTION1": "Genel",
+		"SETTINGS_OPTION2": "Bildirimler",
+		"SETTINGS_OPTION3": "Dil Seçimi",
+		"SETTINGS_OPTION4": "Hakkında",
+		"SETTINGS_OPTION5": "Çevirim Dışı Ol",
+		"SETTINGS_PAGE_PROFILE": "Bilgi Güncelle"
+	},
+	"FAMILY_FILTER_SCREEN": {
+		"TITLE": "Temmiz İnternet Servisini Nedir?",
+		"DESCRIPTION":
+			"Temiz internet Servisiyle, çocuğunuzun yaşına uygun olmayan sitelere erişimini engelleyin. Kontrolünüzde internet kullanmasını sağlayın",
+		"FAMILY_FILTER_STATUS": "Durumu",
+		"FAMILY_FILTER_DESCRIPTION":
+			"Aşağıdaki üyelik için Temiz İnternet Servisini seçin.",
+		"FAMILY_FILTER_ENABLE": "Temiz İnternet Servisini Aktif et",
+		"FAMILY_FILTER_DISABLE": "Temmiz İnternet Servisini Kapat"
+	},
+	"ABOUT_SETTING": {
+		"ABOUT_SETTING_OPTION1": "Nethouse Hakkında",
+		"ABOUT_SETTING_OPTION2": "Şartlar ve Koşullar"
+	},
+	"GENERAL_SETTING": {
+		"GENERAL_SETTING_OPTION1": "2 gün Avans Al",
+		"GENERAL_SETTING_OPTION2": "Hız Testi"
+	}
+}
