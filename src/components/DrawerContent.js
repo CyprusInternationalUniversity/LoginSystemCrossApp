@@ -30,7 +30,7 @@ class DrawerContent extends React.Component {
         <View style={{justifyContent: "flex-start", alignItems: "flex-start", paddingTop: 20}}>
           <Button style={styles.menuButton} onPress={Actions.main_home}>Home</Button>
           <Button style={styles.menuButton} onPress={Actions.main_settings}>Settings</Button>
-          <Button style={styles.menuButton} onPress={Actions.main_profile}>Profile</Button>
+          <Button style={styles.menuButton} onPress={Actions.changePassword}>Change Password</Button>
           <Button style={styles.menuButton} onPress={this.logOut}>Sign Out</Button>
         </View>
       </View>
