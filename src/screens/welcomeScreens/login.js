@@ -90,7 +90,7 @@ class Login extends Component {
 				email: this.state.email,
 				password: this.state.password,
 			};
-			this.props.loginCustomer(credentialForServer);
+			this.props.loginCustomer(credentialForServer, false);
 		}
 	}
 
@@ -107,7 +107,7 @@ class Login extends Component {
 			<StyleProvider style={getTheme(CustomTheme)}>
 				<Container>
 					<View style={styles.backgroundImageContainer}>
-						<Image source={require("../../../assets/ciuArialView.jpg")} style={{ height, width }}  />
+						<Image source={require("../../../assets/ciuArialView.jpg")} style={{ height, width }} />
 						<View style={styles.backgroundOverlay} />
 					</View>
 					<Content

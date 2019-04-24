@@ -118,62 +118,65 @@ export const registerCustomer = credentials => {
 	};
 };
 
-export const loginCustomer = credentials => {
+export const loginCustomer = (credentials, returnPromise) => {
 	return dispatch => {
 		dispatch({ type: LOGIN_USER_SUBMIT });
 
-		axios
-			.post(`${API_BASE_URL}${LOGIN_CUSTOMER_EP}`, credentials)
-			// API.RegisterProcess(credentials)
-			.then(response => {
-				// const output = JSON.parse(JSON.stringify(response));
-				// console.log(output.data.id);
-				const sessionID = response.data.id;
-				const userID = response.data.userId;
-				console.log(sessionID);
+		return (
+			axios
+				.post(`${API_BASE_URL}${LOGIN_CUSTOMER_EP}`, credentials)
+				// API.RegisterProcess(credentials)
+				.then(response => {
+					// const output = JSON.parse(JSON.stringify(response));
+					// console.log(output.data.id);
+					const sessionID = response.data.id;
+					const userID = response.data.userId;
+					console.log(sessionID);
 
-				/* save credentials encrypted in the device */
-				SaveKeyChain(credentials.email, credentials.password, sessionID, userID);
+					/* save credentials encrypted in the device */
+					SaveKeyChain(credentials.email, credentials.password, sessionID, userID);
 
-				Toast.show({
-					text: "Login was successful!",
-					buttonText: "Okay",
-					duration: 800,
-					type: "success",
-				});
-				dispatch({
-					type: LOGIN_USER_SUCCESS,
-					payload: {
-						message: "Login was sucessfull. Thank you.",
-						status: response.status,
-					},
-				});
-				return Actions.drawer();
-			})
-			.catch(error => {
-				const output = JSON.parse(JSON.stringify(error));
-				// console.log(output);
-				let message = "";
-				if (output.response) {
-					message = output.response.data.message ? output.response.data.message : output.response.status;
-				} else {
-					message = "Connection refused, please check the server";
-				}
-				// console.log(message);
-				// return dispatch({ type: REGISTRATION_FAIL });
-				Toast.show({
-					text: "Please check your email and password again.",
-					buttonText: "Okay",
-					duration: 1800,
-					type: "Danger",
-				});
-				return dispatch({
-					type: LOGIN_USER_FAIL,
-					payload: {
-						message,
-						status: output.response.status,
-					},
-				});
-			});
+					Toast.show({
+						text: "Login was successful!",
+						buttonText: "Okay",
+						duration: 800,
+						type: "success",
+					});
+					dispatch({
+						type: LOGIN_USER_SUCCESS,
+						payload: {
+							message: "Login was sucessfull. Thank you.",
+							status: response.status,
+						},
+					});
+
+					return returnPromise ? true : Actions.drawer();
+				})
+				.catch(error => {
+					const output = JSON.parse(JSON.stringify(error));
+					// console.log(output);
+					let message = "";
+					if (output.response) {
+						message = output.response.data.message ? output.response.data.message : output.response.status;
+					} else {
+						message = "Connection refused, please check the server";
+					}
+					// console.log(message);
+					// return dispatch({ type: REGISTRATION_FAIL });
+					Toast.show({
+						text: "Please check your email and password again.",
+						buttonText: "Okay",
+						duration: 1800,
+						type: "Danger",
+					});
+					return dispatch({
+						type: LOGIN_USER_FAIL,
+						payload: {
+							message,
+							status: output.response.status,
+						},
+					});
+				})
+		);
 	};
 };
