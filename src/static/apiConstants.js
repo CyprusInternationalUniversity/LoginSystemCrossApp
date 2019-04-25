@@ -4,7 +4,7 @@
 // });
 
 // bast URL
-const SERVER_ADDRESS = "192.168.43.219";
+const SERVER_ADDRESS = "192.168.43.130";
 // const SERVER_ADDRESS = "192.168.0.105";
 const PORT = "3000";
 const API_VERSION = "api";
