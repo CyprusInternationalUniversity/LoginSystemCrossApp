@@ -176,8 +176,12 @@ class WelcomeScreen extends React.Component {
 	}
 }
 
+const mapsStateToProps = state => ({
+	appSessionLoader: state.initApp.appSessionLoader,
+});
+
 export default connect(
-	null,
+	mapsStateToProps,
 	{
 		AppSessionVerifierCall,
 	}
